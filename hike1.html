@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Page with Navigation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .img-container {
+            text-align: center;
+        }
+        .img-container img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Simple HTML Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to My Website</h2>
+            <p>This is a simple HTML page with a navigation bar and some images.</p>
+        </section>
+        
+        <section id="about">
+            <h2>About Us</h2>
+            <p>This section is about us. You can add more information here.</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Here's how you can contact us:</p>
+            <address>
+                Email: <a href="mailto:info@example.com">info@example.com</a><br>
+                Phone: +123 456 7890
+            </address>
+        </section>
+        
+        <div class="img-container">
+            <h2>Sample Image</h2>
+            <img src="https://via.placeholder.com/600x400" alt="Sample Image">
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 My Simple HTML Page</p>
+    </footer>
+</body>
+</html>
